@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.fortaleza{
+    border-color: rgba(230, 196, 196, 0.504);
+    background-color: rgba(31, 28, 28, 0.925);
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: blue;
+}
+
+.torre {
+    border-color: black;
+    background-color: brown;
+    height: 800px;
+    width: 150px;
+    align-items: end;
+}
+.muralla-central{
+    height: 800px;
+    width: 150px;
+    flex-direction: end;
+    background-color: aqua;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño Responsive con rem y %</title>
+  <style>
+    body {
+      font-size: 16px; /* base para rem */
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 90%;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Este es un diseño accesible y adaptable</h1>
+    <p>Usamos <strong>rem</strong> y <strong>%</strong> para que el contenido se escale correctamente según el tamaño de pantalla y preferencias del usuario.</p>
+    <img src="./imagenes/perro.jpg" alt="Perro feliz">
+  </div>
+
+</body>
+</html>
